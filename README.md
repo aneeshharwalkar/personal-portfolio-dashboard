@@ -1,21 +1,21 @@
 # Portfolio Dashboard
 
-This project is a personal portfolio dashboard concept for tracking stocks, market movers, watchlist activity, and upcoming earnings. It was built as a learning project and is my first hands-on experience using AI-assisted development tools, including v0 and Cursor AI.
+This project is a personal portfolio dashboard concept built entirely using AI-assisted development tools, specifically v0 and Cursor AI. It was created as a learning-focused personal project to explore the capabilities of these tools, understand their limitations, and gain hands-on experience with AI-driven UI prototyping, code generation, and iteration. In parallel, the project served as practice for core Git workflows, including repository setup, version control, and pushing code to GitHub.
 
 ## Overview
 
-The dashboard is built with Next.js and TypeScript using a modular, card-based layout and sidebar navigation. The main page provides a high-level portfolio overview, followed by sections for daily performance, stock news, earnings, and watchlist insights. All data is currently mocked to keep the focus on layout, structure, and component design.
+The dashboard is built with Next.js and TypeScript using a modular, card-based layout and sidebar navigation. The main page presents a high-level portfolio summary, followed by sections for daily performance, market movers, industry trends, and diversification suggestions. All data is currently mocked to keep the focus on layout design, component structure, and overall user experience rather than live data integration.
 
-This project was created to explore how v0 can speed up UI prototyping and how Cursor AI can support development through code generation, refactoring, and rapid iteration.
+This project intentionally emphasizes experimentation with v0 for rapid UI generation and Cursor AI for code refinement, restructuring, and learning modern frontend patterns through AI-assisted development.
 
 ## Features
 
 - Portfolio overview with performance summary  
 - Personal and market-wide daily movers  
-- News section scoped to owned or watched stocks  
-- Upcoming earnings section  
+- Industry and sector trend insights  
+- AI-style diversification suggestions  
 - Watchlist, search, and notifications pages  
-- Modular components designed for future API integration  
+- Modular component architecture designed for extension  
 
 ## Tech Stack
 
@@ -23,8 +23,8 @@ This project was created to explore how v0 can speed up UI prototyping and how C
 - TypeScript  
 - React  
 - Tailwind CSS  
-- v0 (UI prototyping)  
-- Cursor AI (AI-assisted development)
+- v0 (AI-powered UI prototyping)  
+- Cursor AI (AI-assisted development and iteration)
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ npm install
 
 Run the development server:
 
-```
+```bash
 npm run dev
 ```
 
@@ -50,13 +50,14 @@ http://localhost:3000
 
 ## Data and API Integration
 
-The dashboard currently uses mock data. The project structure supports future integration with stock market APIs, news APIs, and earnings calendars via environment variables.
+The dashboard currently uses mock data. API integration was intentionally deferred to focus on learning AI development tools and frontend structure. Integrating live stock market data, news APIs, and earnings calendars is planned as the next phase of the project.
 
 ## Screenshots
 
-Screenshots are included to show the intended layout and user experience without requiring viewers to install dependencies or run the project locally.
+Screenshots are included to demonstrate the intended layout, interactions, and user experience without requiring viewers to install dependencies or run the project locally.
 
 ## Purpose
 
-This project was built as a first experiment with AI-assisted development tools. It demonstrates how v0 and Cursor AI can be used to prototype interfaces quickly, structure a project effectively, and learn modern frontend workflows.
+This project represents a first end-to-end experiment with AI-assisted development tools. It was built to understand how v0 and Cursor AI can accelerate prototyping, guide code structure, and support learning modern frontend workflows, while also reinforcing Git and GitHub best practices through real project usage.
+
 
